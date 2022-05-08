@@ -1,0 +1,89 @@
+/*.color1 {color: #00a483;}
+.color2 {color: #24ba69;}
+.color3 {color: #bae385;}
+.color4 {color: #ffffc1;}
+.color5 {color: #ffffed;}*/
+@font-face {
+  font-family: "fuenteTitulo";
+  src: url(../font/EnjelinaDemo.woff);
+}
+
+body{
+  background-color: #bae385;
+}
+
+h1{
+  font: 150%;
+  font-weight: bold;
+  font-size: 60px;
+  color: #ffffed;
+  font-family: "fuenteTitulo";
+  margin-top: 5px;
+  background-color: #24ba69;
+  text-align: center;
+}
+
+h2{
+  font-family: sans-serif;
+  color: #24ba69;
+  background-color: #ffffc1;
+  font-size: 30px;
+  text-align: center;
+}
+
+#imagen{
+  text-align: center;
+}
+
+#texto{
+  text-align: center;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+#descrip{
+  text-align: justify;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+#continuacion{
+  text-align: center;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+#ahora{
+  font-family: "fuenteTitulo";
+  font-size: 26px;
+  background: #ffffc1;
+}
+
+#manos{
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+#listaOrd{
+  text-align: justify;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+#listaDes{
+  text-align: justify;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+#alServir{
+  text-align: justify;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+#prep{
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
