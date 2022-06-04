@@ -10,6 +10,30 @@
 
 body{
   background-color: #bae385;
+  background-image: url(../image/fondoarepas.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.whatsapp{
+  position: fixed;
+  right: 2%;
+  top: 60%;
+  font-size: 60px;
+  flex-direction: row;
+  z-index: 100;
+}
+
+.iconoW{
+  color: #00a483;
+  text-decoration: none;
+  display: flex;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+nav{
+  background-color: #ffffc1;
+
 }
 
 h1{
@@ -23,67 +47,190 @@ h1{
   text-align: center;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #24ba69;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #ffffed;
+  text-align: center;
+  padding: 10px 20px;
+  font-family: sans-serif;;
+  font-weight: bold;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #00a483;
+}
+
 h2{
   font-family: sans-serif;
   color: #24ba69;
-  background-color: #ffffc1;
   font-size: 30px;
   text-align: center;
 }
 
-#imagen{
-  text-align: center;
+.titreceta{
+  background-color: #ffffc1;
 }
 
-#texto{
-  text-align: center;
-  font-size: 18px;
-  font-family: sans-serif;
+.intro {
+  height: 200px;
+  margin: 20px auto;
+  background-color: #ffffc1;
+  padding: 15px;
 }
 
-#descrip{
+.imagen {
+  height: 200px;
+  float: left;
+  margin-right: 15px;
+}
+
+.descrip{
   text-align: justify;
   font-family: sans-serif;
   font-size: 18px;
+  height: 300px;
+  line-height: 1.5;
+  overflow: auto;
 }
 
-#continuacion{
+
+.texto{
   text-align: center;
   font-size: 18px;
   font-family: sans-serif;
 }
 
-#ahora{
+
+.ahora{
   font-family: "fuenteTitulo";
   font-size: 26px;
-  background: #ffffc1;
+  background: #bae385;
+  text-align: center;
 }
 
-#manos{
-  font-size: 16px;
-  font-family: sans-serif;
+.Ingredientes{
+  margin: 1%;
+  padding: 10px;
+  background-color: #24ba69;
+  width: 48%;
+  height: 200px;
+  float: left;
+  box-sizing: border-box;
+
+  line-height: 1.8;
 }
 
-#listaOrd{
+
+.listaOrd{
   text-align: justify;
   font-family: sans-serif;
   font-size: 18px;
 }
 
-#listaDes{
+
+.especif{
+  margin: 1%;
+  padding: 10px;
+  background-color: #24ba69;
+  width: 48%;
+  height: 200px;
+  float: right;
+  box-sizing: border-box;
+
   text-align: justify;
   font-family: sans-serif;
   font-size: 18px;
 }
 
-#alServir{
+
+
+.prep{
+  margin: 1%;
+  padding: 30px;
+  width: 93.4%;
+  font-size: 28px;
+  font-family: fuenteTitulo;
+  font-weight: bold;
+  background-color: #bae385;
+  box-sizing: content-box;
+  float: left;
+}
+
+.listaDes{
+  margin: 1%;
+  padding: 30px;
   text-align: justify;
   font-family: sans-serif;
   font-size: 18px;
+  background-color: #bae385;
+  float: left;
+  box-sizing: content-box;
 }
 
-#prep{
+.continuacion{
+  text-align: center;
   font-size: 18px;
   font-family: sans-serif;
+}
+
+.mapa{
+  margin: 1%;
+  padding: 10px;
+  background-color: #ffffed;
+  width: 48%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.video{
+  margin: 1%;
+  padding: 10px;
+  background-color: #ffffed;
+  width: 48%;
+
+  float: right;
+  box-sizing: border-box;
+}
+
+footer{
+  margin: 1%;
+  padding: 5px;
+  background-color: #00a483;
+  box-sizing: border-box;
+  text-align: center;
+  clear: both;
+  bottom: 0;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.redes {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  font-size: 30px;
+}
+
+.iconRedes {
+  display: block;
+  color: #ffffed;
+  text-align: center;
+  padding: 10px 20px;
+  font-family: sans-serif;;
   font-weight: bold;
 }
