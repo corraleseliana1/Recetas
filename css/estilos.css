@@ -25,10 +25,14 @@ body{
 }
 
 .iconoW{
-  color: #00a483;
+  color: #808080;
   text-decoration: none;
   display: flex;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.iconoW:hover{
+  color: #00a483;
 }
 
 nav{
@@ -47,7 +51,7 @@ h1{
   text-align: center;
 }
 
-ul {
+.menuTop {
   list-style-type: none;
   margin: 0;
   padding: 10px;
@@ -55,11 +59,12 @@ ul {
   background-color: #24ba69;
 }
 
-li {
-  float: left;
+.menu {
+    float: left;
 }
 
-li a {
+.menu .opciones {
+  text-decoration: none;
   display: block;
   color: #ffffed;
   text-align: center;
@@ -68,8 +73,7 @@ li a {
   font-weight: bold;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
+.menu .opciones:hover {
   background-color: #00a483;
 }
 
@@ -129,8 +133,9 @@ h2{
   height: 200px;
   float: left;
   box-sizing: border-box;
+  transition: 1s;
 
-  line-height: 1.8;
+  line-height: 1.7;
 }
 
 
@@ -140,6 +145,9 @@ h2{
   font-size: 18px;
 }
 
+.Ingredientes:hover{
+  background-color: #ffffc1;
+}
 
 .especif{
   margin: 1%;
@@ -149,13 +157,16 @@ h2{
   height: 200px;
   float: right;
   box-sizing: border-box;
+  transition: 1s;
 
   text-align: justify;
   font-family: sans-serif;
   font-size: 18px;
 }
 
-
+.especif:hover{
+  background-color: #ffffc1;
+}
 
 .prep{
   margin: 1%;
@@ -172,12 +183,15 @@ h2{
 .listaDes{
   margin: 1%;
   padding: 30px;
-  text-align: justify;
-  font-family: sans-serif;
-  font-size: 18px;
   background-color: #bae385;
   float: left;
   box-sizing: content-box;
+}
+
+.paso{
+  text-align: justify;
+  font-family: sans-serif;
+  font-size: 18px;
 }
 
 .continuacion{
@@ -193,6 +207,12 @@ h2{
   width: 48%;
   float: left;
   box-sizing: border-box;
+  transition: 1s;
+}
+
+.mapa:hover{
+  border-radius: 20px;
+  background-color: #bae385;
 }
 
 .video{
@@ -200,9 +220,15 @@ h2{
   padding: 10px;
   background-color: #ffffed;
   width: 48%;
+  transition: 1s;
 
   float: right;
   box-sizing: border-box;
+}
+
+.video:hover{
+  border-radius: 20px;
+  background-color: #bae385;
 }
 
 footer{
@@ -222,15 +248,114 @@ footer{
   list-style-type: none;
   margin: 0;
   padding: 10px;
-  overflow: hidden;
-  font-size: 30px;
+  font-size: 25px;
 }
 
-.iconRedes {
+
+.iconRedes .enlace{
   display: block;
   color: #ffffed;
   text-align: center;
   padding: 10px 20px;
   font-family: sans-serif;;
   font-weight: bold;
+}
+
+
+/*FORMULARIO*/
+
+form{
+  margin: 0 auto;
+  width: 400px;
+  background-color: #bae385;
+  padding: 10px;
+  color: #ffffed;
+  border-radius: 3px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: bold;
+  box-sizing: border-box;
+  box-shadow: 7px 13px 37px #000;
+}
+
+input{
+  border: 0;
+  outline: none;
+}
+
+textarea{
+  border: 0;
+  outline: none;
+}
+
+.campo{
+  border: solid 1px #ffffed;
+  padding: 10px;
+  margin: 10px;
+  width: 90%;
+  border-radius: 3px;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+.campo:focus{
+  border-color: green;
+}
+
+.titForm{
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.term{
+  height: 40px;
+  text-align: center;
+  font-size: 14px;
+  font-family: sans-serif;
+  line-height: 40px;
+}
+
+
+.termycond{
+  color: white;
+  text-decoration: none;
+}
+
+.termycond:hover {
+  color: #00a483;
+  text-decoration: underline;
+}
+
+.ya{
+  text-align: center;
+}
+
+.cuenta{
+  color: white;
+  text-decoration: none;
+}
+
+.cuenta:hover{
+  color: #00a483;
+  text-decoration: underline;
+}
+
+.boton{
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  padding: 12px;
+  background-color: #ffffc1;
+  margin: 16px 0;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+.boton:hover{
+  background-color: #24ba69;
+  text-decoration: underline;
+  cursor: pointer;
 }
